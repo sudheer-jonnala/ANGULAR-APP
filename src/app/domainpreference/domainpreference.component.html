@@ -1,0 +1,45 @@
+<div fxLayoutAlign="center"style="margin-top:60px">
+    <mat-card fxFlex="48">
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+             
+                <h3 style="text-align: justify;color:blue">Select Candidate Profile and programming language:</h3>
+                
+                <mat-radio-group>
+                <mat-radio-button value="Junior Developer">Junior Developer</mat-radio-button>
+                <mat-radio-button style="padding-left:10px" value="Senior Developer">Senior Developer</mat-radio-button>
+                <mat-radio-button style="padding-left:10px" value="Development Lead">Development Lead</mat-radio-button> 
+                <mat-radio-button style="padding-left:10px" value="Development Manager">Development Manager</mat-radio-button> 
+                </mat-radio-group>
+                <br/>
+             
+                 <h3 style="color:blue">Programming language:</h3>
+                 <span>
+                    
+                 <mat-checkbox value="Java" style="margin-top:-40px;">Java</mat-checkbox>
+                 <mat-checkbox value="PHP" style="padding-left:14px">PHP</mat-checkbox>
+                 <mat-checkbox value=".NET" style="padding-left:14px;">.NET</mat-checkbox>
+                 <mat-checkbox value="SQL" style="padding-left:14px;">SQL</mat-checkbox>
+                 <mat-checkbox value="Oracle" style="padding-left:14px;">Oracle</mat-checkbox>
+                 <mat-checkbox value="Unix" style="padding-left:14px;">Unix</mat-checkbox>
+                 <mat-checkbox value="C/C++" style="padding-left:14px;">C/C++</mat-checkbox>
+                 <mat-checkbox value="API" style="padding-left:14px;">API</mat-checkbox>
+                
+                </span>
+            
+                <br/>
+                <h3 style="text-align: justify;color:blue">Complexity:</h3>
+                <mat-radio-group>
+                    <mat-radio-button value="Simple">Simple</mat-radio-button>
+                    <mat-radio-button style="padding-left:20px" value="Medium">Medium</mat-radio-button>
+                    <mat-radio-button style="padding-left:20px" value="Complex">Complex</mat-radio-button>  
+                    </mat-radio-group>
+
+
+            <br/><br/>
+            <button  style="position:absolute;left:380px;top:250px; height:36px;width:80px; background-color:pink;"  mat-raised-button  type="submit">Previous</button>
+            <button style="position:absolute;left:491px;top:250px; height:36px;width:80px"  mat-raised-button color="accent" type="submit">Next</button>
+          
+
+        </form>
+    </mat-card>
+</div>
